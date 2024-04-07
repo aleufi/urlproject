@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -5,9 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Formulario from './components/Formulario'
 
-function App() {
-
-  return (
+function Home(){
 
     <div className="App">
       
@@ -36,7 +36,7 @@ function App() {
       </Container>
 
     </div>
-  );
+    
 }
 
-export default App;
+export default Home;

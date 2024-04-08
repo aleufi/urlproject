@@ -24,10 +24,10 @@ function Formulario() {
         'Authorization': 'Bearer 2e10b15ffccd620dc1e92a7a0251cb12b9f95672',
         'Content-Type': 'application/json'
       },
-      
+
       body: JSON.stringify({ "long_url": formValues.link }),
-      
     })
+      
     .then(response => {
       if (!response.ok) {
         throw new Error('Erro ao realizar a requisição');
@@ -35,7 +35,7 @@ function Formulario() {
       return response.json();
     })
     .then(data => {
-      console.log('Resposta recebida:', data);
+      console.log('Resposta recebida:', data)
       // Faça algo com os dados recebidos
     })
     .catch(error => {

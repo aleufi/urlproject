@@ -12,7 +12,7 @@ function Home(){
         
         <Container fluid className='bg-primary text-center'>
             <Row>
-            <h1 className=''> </h1>
+                <h1 className=''> </h1>
             </Row>
         </Container>
 

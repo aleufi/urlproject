@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { Form, Button, InputGroup } from 'react-bootstrap';
 
+import { useNavigate } from 'react-router-dom';
+
 function Formulario() {
+
+  const navigate = useNavigate();
+  const [data, setData] = useState(null);
+
   const [formValues, setFormValues] = useState({
     link: '',
   });
@@ -36,6 +42,8 @@ function Formulario() {
     })
     .then(data => {
       console.log('Resposta recebida:', data)
+      setData(data);
+      navigate('/success', { state: { data } });
       // Faça algo com os dados recebidos
     })
     .catch(error => {

@@ -1,6 +1,7 @@
 html{
   height: 100%;
   width: 100%;
+  background-color: #212529;
 }
 
 .App-logo {
@@ -36,4 +37,25 @@ html{
   to {
     transform: rotate(360deg);
   }
+}
+
+a{
+  text-decoration: none;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder { 
+  color: white;
+}
+
+.form-control::-ms-input-placeholder {
+  color: white;
+}
+
+#footerBar{
+  background-color: #191c1f;
 }

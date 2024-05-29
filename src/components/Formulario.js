@@ -56,11 +56,12 @@ function Formulario() {
       <Form.Group controlId="formNome">
         <InputGroup>
             <Form.Control
-                placeholder='Insira aqui sua URL :)'
-                type="text"
-                name="link"
-                value={formValues.nome}
-                onChange={handleChange}
+              placeholder='Insira aqui sua URL :)'
+              type="text"
+              name="link"
+              value={formValues.nome}
+              onChange={handleChange}
+              className='bg-dark text-white'
             />
             <Button variant="primary" type="submit">Enviar</Button>
         </InputGroup>

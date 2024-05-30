@@ -1,9 +1,10 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Container, Row, Col, Navbar } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import Formulario from './Formulario'
+import Rodape from './Rodape'
 
 function Home(){
 
@@ -34,22 +35,7 @@ function Home(){
             </Row>
         </Container>
 
-        <Container fluid id="footerBar" className='text-center fixed-bottom p-3'>
-            <Row>
-                <Col className='p-0'>
-                    <h6 className='text-white-50'>Stacks for devs</h6>
-                </Col>
-            </Row>
-
-            <Row>
-                <Col>
-                
-                    <p className='text-white-50'>ReactJS  +  NodeJS  +  Bitly API  +  Bootstrap</p>
-                    <h6 className='text-white-50'>Made with love by aleufi_</h6>
-                
-                </Col>
-            </Row>
-        </Container>
+        <Rodape></Rodape>
 
         </div>
     )

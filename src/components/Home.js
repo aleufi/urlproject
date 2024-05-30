@@ -1,5 +1,5 @@
-import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../custom.css'
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -10,20 +10,20 @@ function Home(){
 
     return(
         <div className="App">
-        
-        <Container fluid className='bg-primary text-center'>
-            <Row>
-                <h1 className=''> </h1>
-            </Row>
-        </Container>
+
 
         <Container fluid className='bg-dark'>
 
             <Row style={{height: "200px"}}></Row>
 
-            <Row className='m-5'>
-                <Col className='d-block text-center'>
-                    <img src='https://placeholderlogo.com/img/placeholder-logo-1.png' alt="logoplaceholder"></img>
+            <Row className='m-5 mb-0'>
+                <Col className='d-flex justify-content-center'>
+                    <img className='m-5' src='/TinyPath main-03.png' alt="logoplaceholder" width='280px'></img>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col className='d-flex justify-content-center p-5 pt-0'>
                     <h5 className='text-white'>Cole, clique e <b className='text-primary'>encurte.</b></h5>
                 </Col>
             </Row>

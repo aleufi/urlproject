@@ -1,0 +1,20 @@
+$primary: #68c0b7;
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+  
+.form-control:-ms-input-placeholder { 
+    color: white;
+}
+  
+.form-control::-ms-input-placeholder {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'

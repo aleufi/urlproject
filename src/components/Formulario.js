@@ -44,7 +44,7 @@ function Formulario() {
       console.log('Resposta recebida:', data)
       setData(data);
       navigate('/success', { state: { data } });
-      // Faça algo com os dados recebidos
+      // dados recebidos
     })
     .catch(error => {
       console.error('Erro:', error);

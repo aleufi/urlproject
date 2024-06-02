@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 function Formulario() {
 
   const navigate = useNavigate();
-  const [data, setData] = useState(null);
 
   const [formValues, setFormValues] = useState({
     link: '',
@@ -27,7 +26,7 @@ function Formulario() {
       method: 'POST',
 
       headers: {
-        'Authorization': 'Bearer 2e10b15ffccd620dc1e92a7a0251cb12b9f95672',
+        'Authorization': `Bearer ${process.env.REACT_APP_BITLY_TOKEN}`,
         'Content-Type': 'application/json'
       },
 
@@ -42,7 +41,6 @@ function Formulario() {
     })
     .then(data => {
       console.log('Resposta recebida:', data)
-      setData(data);
       navigate('/success', { state: { data } });
       // dados recebidos
     })

@@ -12,9 +12,7 @@ function Home(){
         <div className="App">
 
 
-        <Container fluid className='bg-dark'>
-
-            <Row style={{height: "200px"}}></Row>
+        <Container fluid className='bg-dark d-flex flex-column justify-content-center align-content-center' id='mainContainer'>
 
             <Row className='m-5 mb-0'>
                 <Col className='d-flex justify-content-center'>

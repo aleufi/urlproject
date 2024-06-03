@@ -23,11 +23,17 @@ function Success(){
 
             <Container fluid className='bg-dark'>
 
-                <Row style={{height: "200px"}}></Row>
+                <Row className='mt-2 mb-0'>
+                    <Col className='d-flex justify-content-center'>
+                        <a className='mt-5' href='https://tinypathshortener.netlify.app'><img src='/TinyPath short-05.png' alt="logoplaceholder" width='48px'></img></a>
+                    </Col>
+                </Row>
+
+                <Row style={{height: "125px"}}></Row>
 
                 <Row className='m-5'>
                     <Col className='d-flex justify-content-center'>
-                        <h4 className='p-2 text-white'>Sua URL encurtada:</h4>
+                        <h4 className='p-2 text-white text-center'>Sua URL encurtada:</h4>
                     </Col>
                 </Row>
 

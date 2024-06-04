@@ -8,7 +8,7 @@
 <br>
 <br>
 
-# URL Shortener
+# TinyPath
 
 Este é um projeto de site encurtador de URLs construído com React, Bootstrap e a API do Bitly. Ele permite que os usuários encurtem URLs longas, gerando versões mais curtas e fáceis de compartilhar.
 

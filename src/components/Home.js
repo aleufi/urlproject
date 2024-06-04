@@ -16,7 +16,7 @@ function Home(){
 
             <Row className='m-5 mb-0'>
                 <Col className='d-flex justify-content-center'>
-                    <img className='m-5' src='/TinyPath main-03.png' alt="logoplaceholder" width='280px'></img>
+                    <img className='m-5' src='/TinyPathMain.png' alt="logoplaceholder" width='280px'></img>
                 </Col>
             </Row>
 

@@ -1,3 +1,13 @@
+<br>
+<br>
+
+<div align="center">
+   <img src='https://github.com/aleufi/urlproject/assets/132716156/5a1411f1-8e11-4bf2-9895-0a74e974794a'>
+</div>
+
+<br>
+<br>
+
 # URL Shortener
 
 Este é um projeto de site encurtador de URLs construído com React, Bootstrap e a API do Bitly. Ele permite que os usuários encurtem URLs longas, gerando versões mais curtas e fáceis de compartilhar.

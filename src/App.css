@@ -15,6 +15,13 @@ a{
   transform: translate(-25%, -25%);
 }
 
+#mainContainer2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .form-control::placeholder {
   color: white;
   opacity: 1;

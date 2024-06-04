@@ -35,6 +35,7 @@ function Formulario() {
       
     .then(response => {
       if (!response.ok) {
+        navigate('/error')
         throw new Error('Erro ao realizar a requisição');
       }
       return response.json();
